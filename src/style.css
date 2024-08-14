@@ -1,1 +1,54 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.card {
+  width: 300px;
+  height: 450px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+  background: green;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.red-suit {
+  color: red; /* Apply red color to elements with "red-suit" class */
+}
+
+#suit1 {
+  margin-top: -42px;
+  margin-left: -200px;
+  font-size: 100px;
+}
+
+#suit2 {
+  margin-bottom: -42px;
+  margin-right: -200px;
+  transform: rotate(180deg);
+  font-size: 100px;
+}
+
+.number {
+  font-size: 125px;
+}
+
+#contador {
+  margin: 0px auto;
+}
