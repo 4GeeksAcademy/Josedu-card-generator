@@ -1,5 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
-.card {
+/* .card {
   width: 300px;
   height: 450px;
   background-color: white;
@@ -13,33 +13,32 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-}
+} */
 
-body {
+/* body {
   position: relative;
   height: 100vh;
-  background: green;
-}
+} */
 
-.card {
+/* .card {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} */
 
 .red-suit {
-  color: red; /* Apply red color to elements with "red-suit" class */
+  color: red;
 }
 
 #suit1 {
-  margin-top: -42px;
+  margin-top: -30px;
   margin-left: -200px;
   font-size: 100px;
 }
 
 #suit2 {
-  margin-bottom: -42px;
+  margin-bottom: -30px;
   margin-right: -200px;
   transform: rotate(180deg);
   font-size: 100px;

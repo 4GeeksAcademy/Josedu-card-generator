@@ -12,23 +12,21 @@
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
-  <body class="d-flex flex-column align-items-center">
-    <div class="container">
-      <div class="card mx-auto">
-        <div class="card">
-          <div class="card-body text-center">
-            <h1 class="suit" id="suit1"></h1>
-            <h1 class="number"></h1>
-            <h1 class="suit" id="suit2"></h1>
-          </div>
-
-          <button class="btn btn-success" id="newCardButton">
-            Nueva carta en
-            <span id="contador"></span>
-            <p class="mb-0">Si no quieres esperar presiona este botón.</p>
-          </button>
+  <body class="d-flex flex-column align-items-center bg-success">
+    <div class="container d-flex flex-column justify-content-center align-items-center vh-100 ">
+      <div class="card mx-auto" style="width: 300px; border-radius: 1.25rem">
+        <div class="card-body d-flex flex-column justify-content-around align-items-center ">
+          <h1 class="suit" id="suit1"></h1>
+          <h1 class="number"></h1>
+          <h1 class="suit" id="suit2"></h1>
         </div>
       </div>
+      <button class="btn btn-danger mt-3 fs-7" id="newCardButton">
+        Nueva carta en
+        <span id="contador"></span>
+        <p class="mb-0">Si no quieres esperar haz click!</p>
+      </button>
     </div>
+  </body>
   </body>
 </html>
