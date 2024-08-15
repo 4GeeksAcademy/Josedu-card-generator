@@ -29,6 +29,11 @@ window.onload = function() {
     });
 
     cardNumbers.textContent = randomNumber;
+    if (randomSuit === "♥" || randomSuit === "♦") {
+      cardNumbers.classList.add("red-number");
+    } else {
+      cardNumbers.classList.remove("red-number");
+    }
   }
   const newCardButton = document.getElementById("newCardButton");
 
